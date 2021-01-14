@@ -1,0 +1,145 @@
+
+/* PRODUCTS MAIN*/
+
+.products{
+	width: 100%;
+	padding: 80px 0;
+
+}
+
+.prod-inner{
+	margin: 0 48px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+/* PRODUCTS NAVIGATION*/
+
+.prod-nav{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.nav-item{
+	font-size: 16px;
+	font-family: "Helvetica Neue";
+	line-height: 25px;
+	color: #111111;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+.nav-item:hover{
+	color: #757575;
+	transition: 0.3s;
+
+}
+
+/* PRODUCTS BODY*/
+
+.prod-body{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.prod-item{
+	padding: 0 8px;
+	width: calc(33.3333% - 16px);
+}
+
+.prod-item-img{
+	width: 100%;
+	height: auto;
+}
+
+.second-img{
+	display: none;
+}
+
+.prod-item-img img{
+	width: 100%
+	
+}
+
+.first-img{
+	animation: first 3s linear infinite;
+}
+@keyframes first{
+	0%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.first-img{
+	animation: second 3s linear infinite;
+}
+@keyframes second{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 1;
+	}
+	75%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+
+.prod-item-desc{
+	padding-top: 12px;
+	min-height: 185px;
+}
+
+.prod-item-desc h3{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #FF7A00;
+}
+
+.prod-item-desc h4{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #171717;
+}
+
+.prod-item-desc h5{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #757575;
+	text-decoration: line-through;
+}
+
+.prod-item-desc p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #757575;
+}
+
+.prod-price{
+	margin-top: 10px;
+}
+
+.prod-item-desc h4, h5{
+  display: inline;
+}​

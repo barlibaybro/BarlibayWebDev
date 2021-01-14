@@ -1,0 +1,38 @@
+header {
+	font-family: "Montserrat", sans-serif;
+	background-color: black;
+	width: 100%
+}
+
+.container{
+	margin:0 20px;
+	display: flex;
+	flex-direction:  row;
+	justify-content: space-between;
+}
+
+header a {
+	font-size: 15px;
+	line-height: 48px;
+	text-decoration: none;
+}
+
+.header-logo a{
+	color: white;
+	font-weight: bold;
+
+}
+
+.menu-icon{
+	color: grey;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.header-menu a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
